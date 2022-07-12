@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;700&family=Ibarra+Real+Nova:wght@400;700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/7dece7fac5.js" crossorigin="anonymous"></script>
+    <!-- stylesheet and javasccript -->
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/main.js" defer></script>
+    <title>Food Recipe API</title>
+</head>
+<body>
+
+    <section class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h2 class="title">Meal Time</h2>
+                <p>Not sure what to make? Just enter an ingredient you have in your fridge and see the various meals you can make!</p>
+
+                <div class="meal-search-box">
+                    <input type="text" class="search-control" placeholder="Enter an ingredient" id="search-input">
+                    <button type="submit" class="search-btn btn" id="search-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="meal-result">
+                <h2 class="title">Your Search Results:</h2>
+                <div id="meal">
+                    <!-- meal iteams -->
+                    <div class="meal-item">
+                        <div class="meal-img">
+                            <img src="./fries.webp" alt="fries">
+                        </div>
+                        <div class="meal-name">
+                            <h3>Fries</h3>
+                            <a href="#" class="recipe-btn">Get Recipe</a>
+                        </div> 
+                    </div>
+                     <!-- meal iteams ends --> 
+                </div>
+            </div>
+            <div class = "meal-details">
+                <!-- recipe close btn -->
+                <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+                  <i class = "fas fa-times"></i>
+                </button>
+        
+                <!-- meal content -->
+                <div class = "meal-details-content">
+                  <h2 class = "recipe-title">Meals Name Here</h2>
+                  <p class = "recipe-category">Category Name</p>
+                  <div class = "recipe-instruct">
+                    <h3>Instructions:</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit autem iste! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nobis soluta saepe consequuntur obcaecati, non voluptatibus adipisci ut esse sapiente eaque at autem culpa doloribus, odit accusamus. Ad, eius nesciunt?</p>
+                  </div>
+                  <div class = "recipe-meal-img">
+                    <img src = "/fries.jpeg" alt = "">
+                  </div>
+                  <div class = "recipe-link">
+                    <a href = "#" target = "_blank">Watch Video</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
