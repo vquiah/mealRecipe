@@ -156,6 +156,8 @@ body::-webkit-scrollbar-thumb{
     }
     .meal-details{
         width: 700px;
+        font-size: .5rem ;
+        
     }
 }
 
@@ -181,7 +183,7 @@ body::-webkit-scrollbar-thumb{
     overflow-y: scroll;
     display: none;
     padding: 2rem 0;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-family: var(--Ibarra);
 }
 .meal-details::-webkit-scrollbar{
